@@ -1,0 +1,46 @@
+site_name: Curso de especialización en Despliegue de productos software en contenedores
+site_description: Introducción al Módulo de Despliegue de plataformas de ejecución de contenedores
+site_author: Javier Fernández Peón
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Entorno: entorno.md
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+  - pymdownx.details
+  - pymdownx.tabbed
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/javierfp-isc/despliegue_intro
+
+extra_css:
+  - stylesheets/extra.css

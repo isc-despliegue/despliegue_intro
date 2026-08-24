@@ -1,0 +1,23 @@
+services:
+  docs:
+    image: minidocks/mkdocs
+    container_name: intro-docs
+    working_dir: /docs
+    volumes:
+      - .:/docs
+    ports:
+      - "8000:8000"
+    entrypoint: sh
+    command: >
+      -c "
+        python3 -c 'import mkdocs_mermaid2_plugin' 2>/dev/null || pip install mkdocs-mermaid2-plugin;
+
+        while true; do
+          mkdocs build -d /docs/site_tmp;
+          rm -rf /docs/site;
+          mv /docs/site_tmp /docs/site;
+          sleep 5;
+        done &
+        
+        python3 -m http.server 8000 --directory site
+      "
