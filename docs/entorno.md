@@ -3,8 +3,8 @@ Para la construcción del entorno práctico del Curso de Especialización de des
 
 * **código abierto**
 * **alta replicabilidad**
-* **bajo consumo de recursos** *
-* **facilidad de automatización**. 
+* **bajo consumo de recursos**
+* **facilidad de automatización**
 
 A continuación, se detallam la infraestructura y las herramientas que utilizaremos a lo largo del curso y que necesitarás configurar en tu equipo de trabajo.
 
