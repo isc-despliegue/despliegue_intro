@@ -16,6 +16,7 @@ theme:
 nav:
   - Inicio: index.md
   - Entorno: entorno.md
+  - Prácticas: instalacion.md
 
 plugins:
   - search
