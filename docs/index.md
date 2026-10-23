@@ -32,7 +32,7 @@ Este es el módulo introductorio donde se sientan los **fundamentos conceptuales
 
 Es el punto de partida para entender **por qué** se necesitan todas las demás herramientas.
 
-#### **Módulo 5166: Despliegue de Plataformas de Ejecución de Contenedores** ⭐ **[TÚ ESTÁS AQUÍ]**
+#### **Módulo 5166: Despliegue de Plataformas de Ejecución de Contenedores [TÚ ESTÁS AQUÍ]**
 *Duración: 120 horas | 7 créditos ECTS*
 
 Este módulo es el **núcleo técnico infraestructural** del curso. Se enfoca en:
